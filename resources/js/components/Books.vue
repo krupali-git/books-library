@@ -50,7 +50,7 @@ const books = ref({});
 let search = '';
 
 const getResults = async (page = 1) => {
-    let url= `http://laravel_9_vue_js_crud_operation.local/api/books?page=${page}`;
+    let url= `/api/books?page=${page}`;
     if(search != ''){
         url=url+`&search=${search}`;
     }
