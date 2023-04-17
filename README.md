@@ -34,8 +34,5 @@ This app is based on PHP framework "Laravel" version 9.0 with using JS framework
 - The uploaded file will be processed by laravel queue job, so you need to keep run it on server by command `php artisan queue:work`,
 - Result of the import from queue you can check in the log file `/storage/logs/laravel.log`.
 
-### Sample data for import
-
-You can get books table SQL file from public directory
 
 Author: **Krupali Desai**
